@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="utf-8" />
+    
+    <base href="../" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="extra.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <title>&#x2F;datum&#x2F;syndie_data_storage - Paradise Code Docs</title>
+    
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper blue">
+            <a href="index.html" class="brand-logo">&nbsp;Paradise Code Docs</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                
+                <li><a href="index.html#modules">Modules</a></li>
+                <li><a href="index.html#types">Types</a></li>
+                
+            </ul>
+        </div>
+    </nav>
+    <main class="container">
+<h1>syndie_data_storage <aside>/<a href="datum.html">datum</a>/<a href="datum/syndie_data_storage.html">syndie_data_storage</a></aside>
+        
+    
+            <a href="https://github.com/13spacemen/ss220/blob/595974476a2f0d380ad54ecaff69e772b2145951/code/game/machinery/computer/syndie_cargo.dm#L125">
+        <img src="git.png" width="16" height="16" title="code&#x2F;game&#x2F;machinery&#x2F;computer&#x2F;syndie_cargo.dm 125"/></a></h1>
+
+<pre><code>Ð¥ÑÐ°Ð½Ð¸Ð»Ð¸ÑÐµ Ð´Ð°Ð½Ð½ÑÑ.
+ÐÐ¾Ð½ÑÐ¾Ð»Ð¸ ÐµÑ Ð½Ð°ÑÐ¾Ð´ÑÑ Ð¸ Ð¸ÑÐ¿Ð¾Ð»ÑÐ·ÑÑÑ ÐºÐ°Ðº ÑÐµÑÐ²ÐµÑ Ð´Ð»Ñ ÑÐ½ÑÑÐ¾Ð½Ð¸Ð·Ð°ÑÐ¸Ð¸ Ð´Ð°Ð½Ð½ÑÑ.
+ÐÑÐ»Ð¸ ÐºÐ¾Ð½ÑÐ¾Ð»Ñ Ð¿Ð¾ÑÑÑÐ¾Ð¸ÑÑ Ð² Ð·Ð¾Ð½Ðµ Ð±ÐµÐ· ÑÑÐ°Ð½Ð¸Ð»Ð¸ÑÐ° Ð´Ð°Ð½Ð½ÑÑ, ÐºÐ¾Ð½ÑÐ¾Ð»Ñ ÑÐ¾Ð·Ð´Ð°ÑÑ Ð½Ð¾Ð²Ð¾Ðµ ÑÑÐ°Ð½Ð¸Ð»Ð¸ÑÐµ Ð´Ð°Ð½Ð½ÑÑ Ð² ÑÐ²Ð¾ÐµÐ¹ Ð·Ð¾Ð½Ðµ Ð¿ÑÐ¸ Ð¿Ð¾Ð¿ÑÑÐºÐµ ÑÐ¸Ð½ÑÑÐ¾Ð½Ð¸Ð·Ð°ÑÐ¸Ð¸ ÑÐµÑÐµÐ· ÐºÐ½Ð¾Ð¿ÐºÑ &quot;Link pads&quot;
+Ð¢Ð°ÐºÐ¾Ð¹ Ð¿Ð¾Ð´ÑÐ¾Ð´ Ð¿Ð¾Ð·Ð²Ð¾Ð»ÑÐµÑ Ð¸Ð³ÑÐ¾ÐºÐ°Ð¼ Ð¿Ð¾ÑÑÑÐ¾Ð¸ÑÑ ÑÐ¾Ð±ÑÑÐ²ÐµÐ½Ð½Ð¾Ðµ ÑÐ¸Ð½Ð´Ð¸ÐºÐ°ÑÐ³Ð¾
+</code></pre><table class="summary" cellspacing="0"><tr><td colspan="2"><h2>Vars</h2><a href="datum/syndie_data_storage.html#var">Jump To Var Details</a></td></tr>
+            <tr><th><a href="datum/syndie_data_storage.html#var/cargoarea">cargoarea</a></th><td>ÐÐ¾Ð´ ÑÐ¾ Ð²ÑÐµÐ¼ÑÐ½ ÐºÐ¾Ð³Ð´Ð° ÑÑÐ¾Ñ Ð¾Ð±ÑÐµÐºÑ Ð±ÑÐ» Ð°Ð±ÑÑÑÐ°ÐºÑÐ½ÑÐ¼ ÑÑÑÐµÐºÑÐ¾Ð¼ Ð²Ð¼ÐµÑÑÐ¾ Ð´Ð°ÑÑÐ¼Ð°, Ð¾ÑÑÐ°Ð²Ð»ÐµÐ½ Ð½Ð° Ð²ÑÑÐºÐ¸Ð¹ ÑÐ»ÑÑÐ°Ð¹.</td></tr>
+            <tr><th><a href="datum/syndie_data_storage.html#var/telepads_status">telepads_status</a></th><td>ÐÐ¾Ð·Ð¼Ð¾Ð¶Ð½ÑÐµ ÑÑÐ°ÑÑÑÑ Ð´Ð»Ñ ÑÐµÐ»ÐµÐ¿Ð°Ð´Ð¾Ð²
+&quot;Pads not linked!&quot; 	// Ð¡ÑÐ°ÑÑÑ ÑÐ¾Ð»ÑÐºÐ¾ ÑÑÐ¾ Ð¿Ð¾ÑÑÑÐ¾ÐµÐ½Ð½Ð¾Ð¹ ÐºÐ¾Ð½ÑÐ¾Ð»Ð¸.
+&quot;Pads on cooldown&quot;
+&quot;Pads ready&quot;</td></tr></table>
+    <h2 id="var">Var Details</h2><h5 id="var/cargoarea"><aside class="declaration">var </aside>cargoarea
+            <aside>&ndash; /<a href="area.html">area</a></aside>
+        
+    
+            <a href="https://github.com/13spacemen/ss220/blob/595974476a2f0d380ad54ecaff69e772b2145951/code/game/machinery/computer/syndie_cargo.dm#L139">
+        <img src="git.png" width="16" height="16" title="code&#x2F;game&#x2F;machinery&#x2F;computer&#x2F;syndie_cargo.dm 139"/></a></h5>
+        <p>ÐÐ¾Ð´ ÑÐ¾ Ð²ÑÐµÐ¼ÑÐ½ ÐºÐ¾Ð³Ð´Ð° ÑÑÐ¾Ñ Ð¾Ð±ÑÐµÐºÑ Ð±ÑÐ» Ð°Ð±ÑÑÑÐ°ÐºÑÐ½ÑÐ¼ ÑÑÑÐµÐºÑÐ¾Ð¼ Ð²Ð¼ÐµÑÑÐ¾ Ð´Ð°ÑÑÐ¼Ð°, Ð¾ÑÑÐ°Ð²Ð»ÐµÐ½ Ð½Ð° Ð²ÑÑÐºÐ¸Ð¹ ÑÐ»ÑÑÐ°Ð¹.</p>
+<pre><code>layer = TURF_LAYER
+density = FALSE
+icon = 'icons/effects/mapping_helpers.dmi'
+icon_state = null
+invisibility = INVISIBILITY_ABSTRACT
+desc = &quot;This shit has the data for the syndie cargo consoles, so it can be synchronized between them, they don't function normally without it&quot;
+</code></pre>
+<p>Available money amount</p><h5 id="var/telepads_status"><aside class="declaration">var </aside>telepads_status
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/13spacemen/ss220/blob/595974476a2f0d380ad54ecaff69e772b2145951/code/game/machinery/computer/syndie_cargo.dm#L154">
+        <img src="git.png" width="16" height="16" title="code&#x2F;game&#x2F;machinery&#x2F;computer&#x2F;syndie_cargo.dm 154"/></a></h5>
+        <p>ÐÐ¾Ð·Ð¼Ð¾Ð¶Ð½ÑÐµ ÑÑÐ°ÑÑÑÑ Ð´Ð»Ñ ÑÐµÐ»ÐµÐ¿Ð°Ð´Ð¾Ð²
+&quot;Pads not linked!&quot; 	// Ð¡ÑÐ°ÑÑÑ ÑÐ¾Ð»ÑÐºÐ¾ ÑÑÐ¾ Ð¿Ð¾ÑÑÑÐ¾ÐµÐ½Ð½Ð¾Ð¹ ÐºÐ¾Ð½ÑÐ¾Ð»Ð¸.
+&quot;Pads on cooldown&quot;
+&quot;Pads ready&quot;</p></main>
+    <footer class="page-footer transparent">
+        <div class="footer-copyright blue">
+            <div class="container">
+                
+                paradise.dme at commit
+                <a class="white-text" href="https://github.com/13spacemen/ss220/tree/595974476a2f0d380ad54ecaff69e772b2145951">5959744</a>
+                on branch master &mdash; <a class="white-text" href="https://github.com/SpaceManiac/SpacemanDMM/blob/master/src/dmdoc/README.md">dmdoc 1.2.1</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

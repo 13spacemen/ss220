@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="utf-8" />
+    
+    <base href="../../../../" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="extra.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <title>&#x2F;mob&#x2F;living&#x2F;simple_animal&#x2F;hostile&#x2F;morph - Paradise Code Docs</title>
+    
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper blue">
+            <a href="index.html" class="brand-logo">&nbsp;Paradise Code Docs</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                
+                <li><a href="index.html#modules">Modules</a></li>
+                <li><a href="index.html#types">Types</a></li>
+                
+            </ul>
+        </div>
+    </nav>
+    <main class="container">
+<h1>morph <aside>/<a href="mob.html">mob</a>/<a href="mob/living.html">living</a>/<a href="mob/living/simple_animal.html">simple_animal</a>/<a href="mob/living/simple_animal/hostile.html">hostile</a>/<a href="mob/living/simple_animal/hostile/morph.html">morph</a></aside>
+        
+    
+            <a href="https://github.com/13spacemen/ss220/blob/595974476a2f0d380ad54ecaff69e772b2145951/code/game/gamemodes/miniantags/morph/morph.dm#L4">
+        <img src="git.png" width="16" height="16" title="code&#x2F;game&#x2F;gamemodes&#x2F;miniantags&#x2F;morph&#x2F;morph.dm 4"/></a></h1>
+
+<table class="summary" cellspacing="0"><tr><td colspan="2"><h2>Vars</h2><a href="mob/living/simple_animal/hostile/morph.html#var">Jump To Var Details</a></td></tr>
+            <tr><th><a href="mob/living/simple_animal/hostile/morph.html#var/ambush_damage">ambush_damage</a></th><td>How much damage a successful ambush attack does</td></tr>
+            <tr><th><a href="mob/living/simple_animal/hostile/morph.html#var/ambush_prepared">ambush_prepared</a></th><td>If the morph is ready to perform an ambush</td></tr>
+            <tr><th><a href="mob/living/simple_animal/hostile/morph.html#var/ambush_spell">ambush_spell</a></th><td>The ambush action used by the morph</td></tr>
+            <tr><th><a href="mob/living/simple_animal/hostile/morph.html#var/ambush_weaken">ambush_weaken</a></th><td>How much weaken a successful ambush attack applies</td></tr>
+            <tr><th><a href="mob/living/simple_animal/hostile/morph.html#var/gathered_food">gathered_food</a></th><td>How much the morph has gathered in terms of food. Used to reproduce and such</td></tr>
+            <tr><th><a href="mob/living/simple_animal/hostile/morph.html#var/mimic_spell">mimic_spell</a></th><td>The spell the morph uses to morph</td></tr>
+            <tr><th><a href="mob/living/simple_animal/hostile/morph.html#var/morphed">morphed</a></th><td>If the morph is disguised or not</td></tr>
+            <tr><th><a href="mob/living/simple_animal/hostile/morph.html#var/pass_airlock_spell">pass_airlock_spell</a></th><td>The spell the morph uses to pass through airlocks</td></tr><tr><td colspan="2"><h2>Procs</h2><a href="mob/living/simple_animal/hostile/morph.html#proc">Jump To Proc Details</a></td></tr>
+            <tr><th><a href="mob/living/simple_animal/hostile/morph.html#proc/add_food">add_food</a></th><td>Adds the given amount of food to the gathered food and updates the actions.
+Does not include a check to see if it goes below 0 or not</td></tr></table>
+    <h2 id="var">Var Details</h2><h5 id="var/ambush_damage"><aside class="declaration">var </aside>ambush_damage
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/13spacemen/ss220/blob/595974476a2f0d380ad54ecaff69e772b2145951/code/game/gamemodes/miniantags/morph/morph.dm#L52">
+        <img src="git.png" width="16" height="16" title="code&#x2F;game&#x2F;gamemodes&#x2F;miniantags&#x2F;morph&#x2F;morph.dm 52"/></a></h5>
+        <p>How much damage a successful ambush attack does</p><h5 id="var/ambush_prepared"><aside class="declaration">var </aside>ambush_prepared
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/13spacemen/ss220/blob/595974476a2f0d380ad54ecaff69e772b2145951/code/game/gamemodes/miniantags/morph/morph.dm#L50">
+        <img src="git.png" width="16" height="16" title="code&#x2F;game&#x2F;gamemodes&#x2F;miniantags&#x2F;morph&#x2F;morph.dm 50"/></a></h5>
+        <p>If the morph is ready to perform an ambush</p><h5 id="var/ambush_spell"><aside class="declaration">var </aside>ambush_spell
+            <aside>&ndash; /<a href="obj.html">obj</a>/<a href="obj/effect/proc_holder/spell/targeted/morph_spell.html">effect/proc_holder/spell/targeted/morph_spell</a>/ambush</aside>
+        
+    
+            <a href="https://github.com/13spacemen/ss220/blob/595974476a2f0d380ad54ecaff69e772b2145951/code/game/gamemodes/miniantags/morph/morph.dm#L58">
+        <img src="git.png" width="16" height="16" title="code&#x2F;game&#x2F;gamemodes&#x2F;miniantags&#x2F;morph&#x2F;morph.dm 58"/></a></h5>
+        <p>The ambush action used by the morph</p><h5 id="var/ambush_weaken"><aside class="declaration">var </aside>ambush_weaken
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/13spacemen/ss220/blob/595974476a2f0d380ad54ecaff69e772b2145951/code/game/gamemodes/miniantags/morph/morph.dm#L54">
+        <img src="git.png" width="16" height="16" title="code&#x2F;game&#x2F;gamemodes&#x2F;miniantags&#x2F;morph&#x2F;morph.dm 54"/></a></h5>
+        <p>How much weaken a successful ambush attack applies</p><h5 id="var/gathered_food"><aside class="declaration">var </aside>gathered_food
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/13spacemen/ss220/blob/595974476a2f0d380ad54ecaff69e772b2145951/code/game/gamemodes/miniantags/morph/morph.dm#L63">
+        <img src="git.png" width="16" height="16" title="code&#x2F;game&#x2F;gamemodes&#x2F;miniantags&#x2F;morph&#x2F;morph.dm 63"/></a></h5>
+        <p>How much the morph has gathered in terms of food. Used to reproduce and such</p><h5 id="var/mimic_spell"><aside class="declaration">var </aside>mimic_spell
+            <aside>&ndash; /<a href="obj.html">obj</a>/<a href="obj/effect/proc_holder/spell/targeted/click.html">effect/proc_holder/spell/targeted/click</a>/<a href="obj/effect/proc_holder/spell/targeted/click/mimic.html">mimic</a>/morph</aside>
+        
+    
+            <a href="https://github.com/13spacemen/ss220/blob/595974476a2f0d380ad54ecaff69e772b2145951/code/game/gamemodes/miniantags/morph/morph.dm#L56">
+        <img src="git.png" width="16" height="16" title="code&#x2F;game&#x2F;gamemodes&#x2F;miniantags&#x2F;morph&#x2F;morph.dm 56"/></a></h5>
+        <p>The spell the morph uses to morph</p><h5 id="var/morphed"><aside class="declaration">var </aside>morphed
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/13spacemen/ss220/blob/595974476a2f0d380ad54ecaff69e772b2145951/code/game/gamemodes/miniantags/morph/morph.dm#L48">
+        <img src="git.png" width="16" height="16" title="code&#x2F;game&#x2F;gamemodes&#x2F;miniantags&#x2F;morph&#x2F;morph.dm 48"/></a></h5>
+        <p>If the morph is disguised or not</p><h5 id="var/pass_airlock_spell"><aside class="declaration">var </aside>pass_airlock_spell
+            <aside>&ndash; /<a href="obj.html">obj</a>/<a href="obj/effect/proc_holder/spell/targeted/click.html">effect/proc_holder/spell/targeted/click</a>/<a href="obj/effect/proc_holder/spell/targeted/click/morph_spell.html">morph_spell</a>/pass_airlock</aside>
+        
+    
+            <a href="https://github.com/13spacemen/ss220/blob/595974476a2f0d380ad54ecaff69e772b2145951/code/game/gamemodes/miniantags/morph/morph.dm#L60">
+        <img src="git.png" width="16" height="16" title="code&#x2F;game&#x2F;gamemodes&#x2F;miniantags&#x2F;morph&#x2F;morph.dm 60"/></a></h5>
+        <p>The spell the morph uses to pass through airlocks</p><h2 id="proc">Proc Details</h2><h5 id="proc/add_food"><aside class="declaration">proc </aside>add_food<aside>(amount) 
+        
+    
+            <a href="https://github.com/13spacemen/ss220/blob/595974476a2f0d380ad54ecaff69e772b2145951/code/game/gamemodes/miniantags/morph/morph.dm#L143">
+        <img src="git.png" width="16" height="16" title="code&#x2F;game&#x2F;gamemodes&#x2F;miniantags&#x2F;morph&#x2F;morph.dm 143"/></a></aside>
+        </h5>
+        <p>Adds the given amount of food to the gathered food and updates the actions.
+Does not include a check to see if it goes below 0 or not</p></main>
+    <footer class="page-footer transparent">
+        <div class="footer-copyright blue">
+            <div class="container">
+                
+                paradise.dme at commit
+                <a class="white-text" href="https://github.com/13spacemen/ss220/tree/595974476a2f0d380ad54ecaff69e772b2145951">5959744</a>
+                on branch master &mdash; <a class="white-text" href="https://github.com/SpaceManiac/SpacemanDMM/blob/master/src/dmdoc/README.md">dmdoc 1.2.1</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
