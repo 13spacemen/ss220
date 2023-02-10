@@ -42,3 +42,6 @@
 ## Force tab indents on dm files
 *.dm whitespace=indent-with-non-tab
 
+*.dm text eol=lf
+*.md text eol=lf
+*LICENSE text eol=lf
